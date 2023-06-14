@@ -31,7 +31,7 @@ $(document).ready(function() {
 
                 var weatherHTML = '<h3>' + city.name + '</h3>';
                 weatherHTML += '<p class="temperature">Temperatura: ' + temperature + '°C</p>';
-                weatherHTML += '<img class="weather-icon" src="https://openweathermap.org/img/' + iconCode + '.png" alt="Weather Icon">';
+                weatherHTML += '<img class="weather-icon" src="https://openweathermap.org/img/wn/' + iconCode + '.png" alt="Weather Icon">';
                 weatherHTML += '<p class="description hidden">Descripción: ' + description + '</p>';
                 weatherHTML += '<p class="description hidden">Fecha: ' + date.toLocaleDateString() + '</p>';
                 weatherHTML += '<p class="description hidden">Hora: ' + date.toLocaleTimeString() + '</p>';
