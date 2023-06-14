@@ -1,0 +1,50 @@
+body {
+    background-color: #111827;
+    color: white; /* Color de texto blanco */
+
+}
+
+
+/* Estilos para la barra de navegación */
+nav {
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar-title {
+    color: limegreen;
+    font-size: 24px;
+    margin: 0;
+    border: 2px solid limegreen;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+/* Estilos para el contenido */
+.content {
+    padding: 20px;
+}
+
+.card {
+    border: 2px solid limegreen;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 200px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    background: linear-gradient(180deg, #FF5733, #000000);
+}
+
+.weather-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.show-button {
+    margin-top: 10px;
+}

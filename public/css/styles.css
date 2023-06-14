@@ -1,0 +1,100 @@
+/* Estilos para los mensajes de error */
+.error-message {
+    color: red;
+}
+
+/* Estilo para el color de fondo */
+body {
+    background-color: #111827;
+    color: white; /* Color de texto blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Estilos para el contenedor */
+.container {
+    border: 2px solid limegreen;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+/* Estilos para el formulario */
+form {
+    width: 100%;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box; /* Incluir el padding en el ancho total */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white; /* Color de letra blanco */
+    border: none;
+    border-radius: 4px;
+    font-family: Arial, sans-serif; /* Cambio de tipografía */
+    background-color: transparent;
+    border: 2px solid limegreen;
+    box-shadow: 0 0 10px limegreen;
+    outline: none;
+    margin-top: 20px; /* Margen superior añadido */
+}
+
+button:hover {
+    animation: neon-animation 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon-animation {
+    from {
+        box-shadow: 0 0 10px limegreen;
+    }
+    to {
+        box-shadow: 0 0 20px limegreen, 0 0 30px limegreen, 0 0 40px limegreen, 0 0 50px limegreen;
+    }
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    label,
+    input,
+    button {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
